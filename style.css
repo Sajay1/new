@@ -1,0 +1,64 @@
+body{
+    background-image: url("../img/OIP.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-attachment: fixed;
+}
+.form{
+    background-color: rgba(75, 71, 71, 0.685);
+    width: 300px;
+    height: 360px;
+    top: 50%;
+    left: 50%;
+    padding: 40px, 25px;
+    transform: translate(-50%,-50%);
+    border-radius: 6%;
+    position: absolute;
+}
+.form h{
+    position: absolute;
+    text-align: center;
+    size: 210px;
+    margin-top: 20px;
+    margin-right: 80px;
+    margin-bottom: 20px;
+}
+.form i{
+    margin-right: 25px;
+}
+.form input{
+    background-color: transparent;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    font-size: 15px;
+}
+button{
+    position: relative;
+    margin-top: 50px;
+
+}
+button:hover{
+    width: 90px;
+    background-color:tomato;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: ease-in-out 5s;
+}
+h{
+    color: aqua;
+}
+nav{
+    color: blueviolet;
+    transition: ease-in 2s;
+    transition-timing-function: linear;
+}
+@media only screen and (max-width: 400px) {
+    body{
+        background-color: blue;
+    }
+}
